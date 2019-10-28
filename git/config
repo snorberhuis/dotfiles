@@ -1,0 +1,9 @@
+read -p "Enter your git global user.email [steffan@norberhuis]: " email
+email=${email:-steffan@norberhuis.nl}
+
+git config --global user.email "$email"
+
+read -p "Enter your git global user.name [Steffan Norberhuis]: " name
+name=${name:-Steffan Norberhuis}
+
+git config --global user.name "$name"
