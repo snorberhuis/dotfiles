@@ -1,0 +1,14 @@
+# Check if Homebrew is installed and install if it is missing
+if test ! $(which brew); then
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
+
+# Update Homebrew
+brew update
+
+# Using Brew Bundle to generate and install a Brewfile containing all installed apps
+#
+# Note when preparing a new wipe: make sure brew bundle dump generates all newly installed
+# brews/taps/casks/etc
+brew tap homebrew/bundle
+brew bundle install --no-upgrade --file=$PWD/cleanInstall/Brewfile
