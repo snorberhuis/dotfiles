@@ -1,0 +1,4 @@
+
+echo "#### GIT ####"
+
+./git/config
