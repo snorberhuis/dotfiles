@@ -1,0 +1,20 @@
+# Configures the keyboard correctly
+
+# Enable full keyboard access for all controls
+# (e.g. enable Tab in modal dialogs)
+defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
+
+# Setup Keyboards
+# Colemak (Default)
+# ABC
+defaults import com.apple.HIToolbox com.apple.HIToolbox.xml
+
+# Show Keyboard selector top right
+defaults write com.apple.menuextra.textinput ModeNameVisible 1
+defaults import com.apple.systemuiserver com.apple.systemuiserver.xml
+
+# Stop iTunes from responding to the keyboard media keys
+launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null
+
+# Remove man page hotkey used in Jetbrains tools
+defaults write pbs NSServiceStatus

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSStatusItem Visible Siri</key>
+	<false/>
+	<key>NSStatusItem Visible com.apple.menuextra.airport</key>
+	<true/>
+	<key>NSStatusItem Visible com.apple.menuextra.battery</key>
+	<true/>
+	<key>NSStatusItem Visible com.apple.menuextra.clock</key>
+	<true/>
+	<key>NSStatusItem Visible com.apple.menuextra.textinput</key>
+	<true/>
+	<key>__NSEnableTSMDocumentWindowLevel</key>
+	<true/>
+	<key>last-messagetrace-stamp</key>
+	<real>589371537.82548797</real>
+	<key>menuExtras</key>
+	<array>
+		<string>/System/Library/CoreServices/Menu Extras/Clock.menu</string>
+		<string>/System/Library/CoreServices/Menu Extras/Battery.menu</string>
+		<string>/System/Library/CoreServices/Menu Extras/AirPort.menu</string>
+		<string>/System/Library/CoreServices/Menu Extras/TextInput.menu</string>
+	</array>
+</dict>
+</plist>
