@@ -1,0 +1,44 @@
+# Taps
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+
+# Brews
+brew "npm"
+brew "python"
+brew "ansible"
+brew "bat"
+brew "fzf"
+brew "ghostscript"
+brew "git"
+brew "graphviz"
+brew "imagemagick"
+brew "jq"
+brew "librsvg"
+brew "mas"
+brew "maven"
+brew "sbt"
+brew "telnet"
+brew "terraform"
+brew "ufraw"
+brew "vim"
+
+# Casks
+cask "cyberduck"
+cask "firefox"
+cask "google-chrome"
+cask "iterm2"
+cask "jetbrains-toolbox"
+cask "karabiner-elements"
+cask "kindle"
+cask "postman"
+cask "spotify"
+cask "slack"
+
+# Mac App Store
+# Find name of an App by calling curl "http://itunes.apple.com/lookup?id=715768417" | jq -r ".results[0].trackName"
+mas "Numbers", id: 409203825
+mas "Airmail 3", id: 918858936
+mas "Pages", id: 409201541
+mas "Xcode", id: 497799835
+mas "Keynote", id: 409183694
