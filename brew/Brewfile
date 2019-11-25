@@ -6,6 +6,7 @@ tap "homebrew/core"
 # Brews
 brew "ansible"
 brew "awscli"
+brew "aws-cdk"
 brew "bat"
 brew "docker"
 brew "docker-compose"
