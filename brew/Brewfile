@@ -37,6 +37,7 @@ cask "kindle"
 cask "postman"
 cask "spotify"
 cask "slack"
+cask "visual-studio-code"
 
 # Mac App Store
 # Find name of an App by calling curl "http://itunes.apple.com/lookup?id=715768417" | jq -r ".results[0].trackName"
