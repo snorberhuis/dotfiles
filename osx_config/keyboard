@@ -18,3 +18,6 @@ launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/nul
 
 # Remove man page hotkey used in Jetbrains tools
 defaults write pbs NSServiceStatus
+
+# Disable add full stop  with double space
+defaults write NSAutomaticPeriodSubstitutionEnabled 0
