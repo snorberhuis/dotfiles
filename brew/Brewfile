@@ -14,6 +14,7 @@ cask "nosql-workbench-for-amazon-dynamodb"
 cask "postman"
 cask "openjdk"
 cask "spotify"
+cask "microsoft-teams"
 cask "slack"
 cask "visual-studio-code"
 
