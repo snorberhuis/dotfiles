@@ -7,3 +7,5 @@ read -p "Enter your git global user.name [Steffan Norberhuis]: " name
 name=${name:-Steffan Norberhuis}
 
 git config --global user.name "$name"
+
+git config --global --add --bool push.autoSetupRemote true
