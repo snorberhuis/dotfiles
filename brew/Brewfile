@@ -4,6 +4,8 @@ tap "homebrew/cask"
 tap "homebrew/core"
 
 # Casks
+cask "claude-code"
+cask "1password"
 cask "cyberduck"
 cask "firefox"
 cask "google-chrome"
@@ -17,6 +19,7 @@ cask "spotify"
 cask "microsoft-teams"
 cask "slack"
 cask "visual-studio-code"
+cask "wireshark"
 
 # Brews
 brew "ansible"

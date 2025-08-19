@@ -9,3 +9,4 @@ name=${name:-Steffan Norberhuis}
 git config --global user.name "$name"
 
 git config --global --add --bool push.autoSetupRemote true
+git config --global init.defaultBranch main
